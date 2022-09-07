@@ -1,0 +1,36 @@
+.card {
+    max-width: 350px;
+    min-width: 300px;
+    min-height: 360px;
+    max-height: max-content;
+    border-radius: 25px;
+    background: var(--sunken);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+.card img{
+    width: 115px !important;
+    object-fit: contain;
+}
+
+.card p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
