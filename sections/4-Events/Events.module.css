@@ -11,7 +11,7 @@
     line-height: 48px;
     overflow: hidden;
     color: #1B2D45;
-    padding: 3rem;
+    padding: 2rem;
     text-align: right;
 }
 
@@ -67,6 +67,9 @@
     .box {
         align-items: center;
         grid-template-columns: 1fr;
+    }
+    .small{
+        max-width: 80%;
     }
 
 

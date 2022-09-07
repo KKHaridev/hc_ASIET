@@ -7,7 +7,6 @@ const nextConfig = {
       unoptimized: true,
     },
   },
-  basePath: '/hc_ASIET',
 }
 
 module.exports = nextConfig
