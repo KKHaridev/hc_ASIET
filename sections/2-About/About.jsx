@@ -11,7 +11,16 @@ const About = () => {
         <h1 className="h1">About</h1>
         <div className={style.contentholder}>
           <div className={style.content}>
-            <h3 className={"heading"}>Lorem ih3sum, dolor sit amet consectetur adih3isicing elit. h3raesentium animi dolores voluh3tas h3ariatur ex adih3isci, nulla oh3tio corruh3ti beatae eveniet.</h3>
+            <h3 className={"heading"}>Hack Club ASIET was established in August 2020. It is the first
+              Hack Club chapter in the Kerala region. It was formed with an
+              aim of motivating the students to take up coding and building
+              projects and instill technological knowledge among them in an
+              enjoyable manner.
+              <br />
+              <br />
+              Hack Club ASIET currently has about 250+ members and
+              functions most effectively with active participation from the
+              members.</h3>
           </div>
           <div className={style.logo}>
             <Image src={logo} alt="logo" />

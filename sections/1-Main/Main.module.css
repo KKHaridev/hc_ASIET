@@ -1,6 +1,6 @@
 .main {
     width: 100%;
-    min-height: 70vh;
+    min-height: calc(100vh - 100px);
     max-height: max-content;
     background: #F2F4F6;
     display: flex;
@@ -29,6 +29,7 @@
     flex-direction: column;
     order: 2;
 }
+
 .contentholder {
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@
     padding: 1rem 0;
 }
 
-.content h3{
+.content h3 {
     margin: 2.5rem 0;
 }
 
@@ -71,9 +72,18 @@
 
 @media screen and (max-width: 96em) {}
 
-@media screen and (max-width: 64em) {}
+@media screen and (max-height: 48em) {
+    
+}
 
 @media screen and (max-width: 48em) {
+    .main{
+        display: block;
+    }
+    .contentholder{
+        min-height: 85vh;
+        justify-content: space-evenly;
+    }
     .box {
         align-items: center;
     }
@@ -100,4 +110,25 @@
     }
 }
 
-@media screen and (max-width: 32em) {}
+@media screen and (max-width: 32em) {
+    .main {
+            min-height: calc(100vh - 100px);
+        }
+    .box h1 {
+        margin: 0px 0;
+        font-size: 1.5rem;
+    }
+
+    .content h3 {
+        margin: 15px 0;
+        font-size: 1.15rem;
+    }
+
+    .imgbox {
+        width: 75%;
+    }
+
+    .box img {
+        width: 15rem;
+    }
+}

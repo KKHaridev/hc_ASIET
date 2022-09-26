@@ -23,7 +23,7 @@ export const Contact = () => {
             Kerala, India
             683574</h3></div>
           <div>
-            <HiMail /><h3>hackclub@adishankara.ac.in</h3>
+            <HiMail /><h3><a href="mailto:hackclub@adishankara.ac.in">hackclub @adishankara.ac.in</a></h3>
           </div>
           <div>
             <HiPhone /><h3>+91 1234567890</h3>

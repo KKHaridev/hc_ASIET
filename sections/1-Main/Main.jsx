@@ -11,7 +11,10 @@ export const Main = () => {
         <div className={style.contentholder}>
           <div className={style.content}>
             <h1 className="h1">Create Technology for the Greater Good </h1>
-            <h3 className={"heading"}>Lorem ih3sum, dolor sit amet consectetur adih3isicing elit. h3raesentium animi dolores voluh3tas h3ariatur ex adih3isci, nulla oh3tio corruh3ti beatae eveniet.</h3>
+            <h3 className={"heading"}>Hack Club is a community for young eager learners and coders
+              to collaborate, build and create innovative projects and ideas. It
+              is a wonderful platform for youngsters to get to know each
+              other, work together and network effectively.</h3>
             <button className={style.btn}>Join Us</button>
           </div>
           <div className={style.imgbox}>

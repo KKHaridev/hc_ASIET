@@ -71,6 +71,9 @@
 @media screen and (max-width: 64em) {}
 
 @media screen and (max-width: 48em) {
+    .header ul {
+        padding: 0;
+    }
     .hamburger {
         width: 30px;
         height: 30px;

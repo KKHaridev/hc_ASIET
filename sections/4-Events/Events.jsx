@@ -1,7 +1,12 @@
 import React from 'react';
 import style from "./Events.module.css";
 import Image from 'next/image';
-import logo from "../../assets/HC.png"
+import logo from "../../assets/Web.jpeg";
+import reading from "../../assets/read.jpeg";
+import python from "../../assets/python.jpeg";
+import ai from "../../assets/ai.jpeg";
+import product from "../../assets/productdesign.jpeg";
+
 
 
 
@@ -14,19 +19,19 @@ export const Events = () => {
         <h1 className="h1">Events</h1>
         <div className={style.box}>
           <div className={style.big}>
-            {/*<Image src={logo} alt="logo" /> */}
+            <Image src={ai} alt="logo" /> 
           </div>
           <div className={style.small}>
-            {/*<Image src={logo} alt="logo" /> */}
+            <Image src={logo} alt="logo" /> 
           </div>
           <div className={style.small}>
-            {/*<Image src={logo} alt="logo" /> */}
+            <Image src={python} alt="logo" /> 
           </div>
           <div className={style.small}>
-            {/*<Image src={logo} alt="logo" /> */}
+            <Image src={reading} alt="logo" /> 
           </div>
           <div className={style.small}>
-            {/*<Image src={logo} alt="logo" /> */}
+            <Image src={product} alt="logo" /> 
           </div>
         </div>
       </div>

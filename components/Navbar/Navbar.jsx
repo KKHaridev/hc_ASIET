@@ -36,7 +36,7 @@ export const Navbar = () => {
                 spy={false}
                 smooth={true}
                 onClick={() => setNav(!nav)}
-                offset={32}
+                offset={0}
                 duration={500}
                 delay={250}
                 isDynamic={true}
