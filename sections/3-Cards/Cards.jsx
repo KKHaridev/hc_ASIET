@@ -9,17 +9,17 @@ const reasons = [
   {
     title: "Networking",
     image: workshop,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+    desc: "Hack Club helps its members to  interact and develop professional and social contacts with other communities."
   },
   {
     title: "Workshops",
     image: workshop,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+    desc: "We provide  workshops on various topics both online and offline so as to impart knowledge regarding several domains."
   },
   {
     title: "Skill Development",
     image: skill,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+    desc: "Its quite a misinformation that hack club only improves coding skills...But no, it help members improve both technical and non technical skills."
   },
 ]
 
