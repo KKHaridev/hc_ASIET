@@ -13,26 +13,6 @@
     color: #1B2D45;
 }
 
-.typed-out{
-      display: inline-block;
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-      animation-delay: 3s;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
-    }
-
 .content {
     width: 50%;
     order: 0;
@@ -83,7 +63,7 @@
 
 .imgbox img {
     object-fit: contain;
-    width: 95% !important;
+    width: 50% !important;
     height: 95% !important;
     transform: rotate(13.16deg);
 }

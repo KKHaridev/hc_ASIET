@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../../assets/flag-orpheus-top.svg";
+import logo from "../../assets/HC.png";
 import style from "./Navbar.module.css";
 import { Link } from "react-scroll";
 import Image from 'next/image';
@@ -9,6 +9,7 @@ export const Navbar = () => {
   const [nav, setNav] = useState(true);
 
   return (
+    
 
     <header className={style.header}>
       <nav className={style.nav + ' ' + "container"}>
