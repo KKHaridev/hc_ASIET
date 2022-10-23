@@ -63,11 +63,14 @@
 }
 
 .imgbox img {
-    object-fit: contain;
-    width: 95% !important;
-    height: 95% !important;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3.16692px solid #FF5470;
     border-radius: 365.166px 166.473px 447.508px;
-    transform: rotate(13.16deg);
+    transform: rotate(-13.16deg);
+    overflow: hidden;
 }
 
 
