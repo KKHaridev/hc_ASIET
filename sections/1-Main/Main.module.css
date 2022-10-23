@@ -16,18 +16,23 @@
 .container{
       display: inline-block;
     }
-    .typed-out{
+.typed-out{
+      font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      animation: 
-      typing 1s steps(20, end) forwards;
-      font-size: 1.6rem;
+      border-right: .15em solid orange; 
+      white-space: nowrap; 
       width: 0;
-    }
- @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
+      animation: 
+        typing 1s steps(25, end) forwards;
+      animation-delay: 3s;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
     }
 
 .content {
