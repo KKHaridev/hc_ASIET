@@ -6,11 +6,10 @@ import Image from 'next/image';
 export const Main = () => {
   return (
     <div className={style.main}>
-    
-      <div className="typed-out">Web Developer</div>
       <div className={"container" + ' ' + style.box}>
         <div className={style.contentholder}>
           <div className={style.content}>
+            <div className={"typed-out"}>Hack Club ASIET</div>
             <h1 className="h1">Create Technology for the Greater Good </h1>
             <h3 className={"heading"}>Hack Club is a community for young eager learners and coders
               to collaborate, build and create innovative projects and ideas. It
