@@ -2,7 +2,6 @@ import React from 'react';
 import style from "./Main.module.css";
 import heroimg from "../../assets/heroimg.png"
 import Image from 'next/image';
-import style from "./Main.module.html";
 
 export const Main = () => {
   return (
