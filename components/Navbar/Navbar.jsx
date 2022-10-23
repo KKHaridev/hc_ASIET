@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../../assets/HC.png";
+import logo from "../../assets/flag-orpheus-top.svg";
 import style from "./Navbar.module.css";
 import { Link } from "react-scroll";
 import Image from 'next/image';

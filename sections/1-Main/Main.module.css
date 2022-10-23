@@ -63,8 +63,8 @@
 
 .imgbox img {
     object-fit: contain;
-    width: 50% !important;
-    height: 95% !important;
+    width: 150% !important;
+    height: 150% !important;
     transform: rotate(13.16deg);
 }
 
