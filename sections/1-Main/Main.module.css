@@ -13,6 +13,22 @@
     color: #1B2D45;
 }
 
+.container{
+      display: inline-block;
+    }
+    .typed-out{
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      animation: 
+      typing 1s steps(20, end) forwards;
+      font-size: 1.6rem;
+      width: 0;
+    }
+ @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
 
 .content {
     width: 50%;
