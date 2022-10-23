@@ -6,6 +6,8 @@ import Image from 'next/image';
 export const Main = () => {
   return (
     <div className={style.main}>
+    
+      <div className="typed-out">Web Developer</div>
       <div className={"container" + ' ' + style.box}>
         <div className={style.contentholder}>
           <div className={style.content}>
