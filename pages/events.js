@@ -14,7 +14,7 @@ export default function events() {
         <div className={style.box}>
           {_events.map((item,index)=>
           <div className={style.small} key={index}>
-            <Image src={item.imgUrl} alt={item.name} /> 
+            <img src={item.imgUrl} alt={item.name} /> 
           </div>)}
         </div>
       </div>
