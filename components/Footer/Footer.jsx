@@ -61,9 +61,9 @@ export const Footer = () => {
         <div className={style.center}>
           <h3>Connect with Us</h3>
           <div className={style.social}>
-            <a href="https://instagram.com/hackclubasiet" target='_blank'><AiFillInstagram /></a>
-            <a href="https://www.linkedin.com/in/hackclubasiet" target='_blank'><AiFillLinkedin /></a>
-            <a href="https://github.com/hackclubasiet" target='_blank'><AiFillGithub /></a>
+            <a href="https://instagram.com/hackclubasiet" target='_blank' rel="noreferrer"><AiFillInstagram /></a>
+            <a href="https://www.linkedin.com/in/hackclubasiet" target='_blank' rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://github.com/hackclubasiet" target='_blank' rel="noreferrer"><AiFillGithub /></a>
           </div>
           {/* <Image src={hcflag} layout='fill' alt="hc flag" /> */}
         </div>
