@@ -2,6 +2,7 @@
 import React from 'react'
 import { events as _events } from '../sections/4-Events/data'
 import style from "../styles/Events.module.css";
+import Image from 'next/image';
 
 export default function events() {
 
@@ -13,7 +14,7 @@ export default function events() {
         <div className={style.box}>
           {_events.map((item,index)=>
           <div className={style.small} key={index}>
-            <img src={item.imgUrl} alt={item.name} /> 
+            <Image src={item.imgUrl} alt={item.name} /> 
           </div>)}
         </div>
       </div>

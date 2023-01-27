@@ -47,13 +47,13 @@ export const Footer = () => {
         <div className={style.right}>
         <h3>Contributors</h3>
           <div className={style.contributors}>
-            <a href='https://kkharidev.algata.in/' target='_blank'>
+            <a href='https://kkharidev.algata.in/' target='_blank' rel="noreferrer">
               <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
             </a>
-            <a href='https://aaron11.in' target='_blank'>
+            <a href='https://aaron11.in' target='_blank' rel="noreferrer">
               <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
             </a>
-            <a href='https://www.linkedin.com/in/swathi-dinesh' target='_blank'>
+            <a href='https://www.linkedin.com/in/swathi-dinesh' target='_blank' rel="noreferrer">
               <img src='https://avatars.githubusercontent.com/u/97840814?v=4'/>
             </a>
         </div>
