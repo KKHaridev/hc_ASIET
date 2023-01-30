@@ -4,10 +4,10 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     images: {
-      unoptimized: true,
+      // unoptimized: true,
     },
   },
-  basePath: '/hc_ASIET',
+  // basePath: '/hc_ASIET',
 }
 
 module.exports = nextConfig
