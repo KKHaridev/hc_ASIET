@@ -25,7 +25,7 @@ const reasons = [
     title: "Campus Lead",
     image: campuslead,
     desc: "Akshitha Balan",
-    link:''
+    link:' https://www.linkedin.com/in/akshitha-balan-70699228a'
   },
   {
     title: "Mentor",
