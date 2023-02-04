@@ -127,5 +127,15 @@ export const events=[
       id:25,
       imgUrl:"https://live.staticflickr.com/65535/52733922999_ff33f9e2f7_c.jpg",
       name:"Republic Day"
+    },
+    {
+      id:26,
+      imgUrl:"https://live.staticflickr.com/65535/53150832449_fa24fe1870_n.jpg",
+      name:"Ruby Workshop"
+    },
+    {
+      id:27,
+      imgUrl:"https://live.staticflickr.com/65535/53150052517_ff03e9fcb7_n.jpg",
+      name:"Web Polis"
     }
   ]
