@@ -1,25 +1,85 @@
 import React from 'react';
 import style from "./Cards.module.css";
 import { Card } from '../../components';
-import workshop from "../../assets/Workshop.png"
-import skill from "../../assets/Skill.png"
 
+import advisor from "../../assets/Excom/Anila Ma'am.jpg";
+import campuslead from "../../assets/Excom/Akshitha Balan.jpg";
+import mentor1 from "../../assets/Excom/Athulkrishna.jpg";
+import mentor2 from "../../assets/Excom/Archana.jpg";
+import techlead from "../../assets/Excom/Abhi.jpg";
+import cotechlead from "../../assets/Excom/Swathi Dinesh.jpg";
+import proglead from "../../assets/Excom/Insha Nourin.jpg";
+import coproglead from "../../assets/Excom/brahmaduttan namboodiripaad.jpg";
+import doclead from "../../assets/Excom/Nanditha.jpg";
+import networklead from "../../assets/Excom/Amaldev.jpg";
+import grphlead from "../../assets/Excom/Akshara Balan.jpg";
 
 const reasons = [
   {
-    title: "Networking",
-    image: workshop,
-    desc: "Hack Club helps its members to  interact and develop professional and social contacts with other communities."
+    title: "Staff Advisor",
+    image: advisor,
+    desc: "Prof Anila S",
+    link:' https://www.linkedin.com/in/anila-s-a16aa2229'
   },
   {
-    title: "Workshops",
-    image: workshop,
-    desc: "We provide  workshops on various topics both online and offline so as to impart knowledge regarding several domains."
+    title: "Campus Lead",
+    image: campuslead,
+    desc: "Akshitha Balan",
+    link:''
   },
   {
-    title: "Skill Development",
-    image: skill,
-    desc: "Its quite a misinformation that hack club only improves coding skills...But no, it help members improve both technical and non technical skills."
+    title: "Mentor",
+    image: mentor1,
+    desc: "Athulkrishna S",
+    link:' https://www.linkedin.com/in/athulkrishna-n-s-558bb2225'
+  },
+  {
+    title: "Mentor",
+    image: mentor2,
+    desc: "Archana Delip",
+    link:' https://www.linkedin.com/in/archana-delip-2b9770226'
+  },
+  {
+    title: "Technical Lead",
+    image: techlead,
+    desc: "Abhinand K Prasad",
+    link:' https://www.linkedin.com/in/abhinand-prasad'
+  },
+  {
+    title: "Co-Technical Lead",
+    image: cotechlead,
+    desc: "Swathi Dinesh",
+    link:' https://www.linkedin.com/in/swathi-dinesh'
+  },
+  {
+    title: "Program Lead",
+    image: proglead,
+    desc: "Insha Nourin Sulbi",
+    link:' https://www.linkedin.com/in/insha-nourin-sulbi-0a823820b'
+  },
+  {
+    title: "Co-Program Lead",
+    image: coproglead,
+    desc: "Brahmaduttan Namboodiripad",
+    link:' https://www.linkedin.com/in/brahma02'
+  },
+  {
+    title: "Documentation Lead",
+    image: doclead,
+    desc: "Nanditha Nambiar",
+    link:' https://www.linkedin.com/in/nanditha-nambiar-aa66a124b'
+  },
+  {
+    title: "Networking Lead",
+    image: networklead,
+    desc: "Amaldev Suresh",
+    link:' https://www.linkedin.com/in/amaldev-suresh-989741275'
+  },
+  {
+    title: "Graphics Lead",
+    image: grphlead,
+    desc: "Akshara Balan",
+    link:' https://www.linkedin.com/in/akshara-balan-861135229'
   },
 ]
 
@@ -27,13 +87,13 @@ export const Cards = () => {
   return (
     <div className={style.reasons}>
       <div className="container">
-        <h1>Why Join Hack Club ?</h1>
+        <h1>Excom Team</h1>
         <div className={style.box}>
-        {reasons.map((item) => <Card item={item} />)}
+          {reasons.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
         </div>
-        <button className={style.btn}>Join HackClub</button>
-
       </div>
     </div>
-  )
-}
+  );
+};

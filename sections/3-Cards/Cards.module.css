@@ -9,7 +9,6 @@
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-
     color: #1B2D45;
     padding: 2rem;
 }
@@ -21,22 +20,20 @@
 
 .box {
     width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
 
-.btn {
+/* .btn {
     height: 45px;
     padding: 5px 32px;
     background: #00EBC7;
     border-radius: 23.5965px;
     color: var(--black);
     margin-top: 1.5rem;
-}
-
-
-
+} */
 
 @media screen and (max-width: 96em) {}
 
