@@ -30,12 +30,13 @@ const el = useRef(null);
               to collaborate, build and create innovative projects and ideas. It
               is a wonderful platform for youngsters to get to know each
               other, work together and network effectively.</h3>
-              <button className={style.btn} >
-              <a href=''>Join Us</a>
-            </button>
-            <button className={style.dbtn}>
-              <a href='https://forms.gle/vy1D8ix2okJJcqMr6'>Donate Us</a>
-            </button>
+              <a href='https://forms.gle/napy7UMhpviTJJnN9' target='_blank'>
+                <button className={style.btn} >Join Us</button>
+              </a>
+              &nbsp;&nbsp;
+              <a href='https://forms.gle/6SWMYSuXuWJYaaW76' target='_blank'>
+                <button className={style.dbtn}>Donate Us</button>
+              </a>
           </div>
           <div className={style.imgbox}>
             <Image src={heroimg} alt="logo" />
