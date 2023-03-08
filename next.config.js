@@ -2,10 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
+  images: {
+    
+    domains: ["staticflicker.com"],
+   
+    unoptimized: false,
   },
   basePath: '/hc_ASIET',
 }
