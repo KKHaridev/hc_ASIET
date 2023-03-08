@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./Footer.module.css";
 import hcflag from "../../assets/flag-standalone.svg"
 import Image from 'next/image';
-import { Link } from 'react-scroll';
+import Link from 'next/link';
 import { AiFillInstagram, AiFillFacebook, AiFillLinkedin, AiFillHeart } from 'react-icons/ai';
 
 
@@ -14,66 +14,31 @@ export const Footer = () => {
           <h3>Hack Club ASIET</h3>
           <ul className={style.links}>
             <li className={style.link + ' ' + "subheadline"}>
-              <Link
-                spy={false}
-                smooth={true}
-                offset={0}
-                duration={500}
-                delay={250}
-                isDynamic={true}
-                to="Home"
+              <Link href="/"
               >
                 Home
               </Link>
             </li>
             <li className={style.link + ' ' + "subheadline"}>
-              <Link
-                spy={false}
-                smooth={true}
-                offset={0}
-                duration={500}
-                delay={250}
-                isDynamic={true}
-                to="About"
+              <Link href="/#About"
               >
                 About
               </Link>
             </li>
             <li className={style.link + ' ' + "subheadline"}>
-              <Link
-                spy={false}
-                smooth={true}
-                offset={0}
-                duration={500}
-                delay={250}
-                isDynamic={true}
-                to="Cards"
+              <Link href="/#Cards"
               >
                 Execom
               </Link>
             </li>
             <li className={style.link + ' ' + "subheadline"}>
-              <Link
-                spy={false}
-                smooth={true}
-                offset={0}
-                duration={500}
-                delay={250}
-                isDynamic={true}
-                to="Events"
+              <Link href="/#Events"
               >
                 Events
               </Link>
             </li>
             <li className={style.link + ' ' + "subheadline"}>
-              <Link
-                spy={false}
-                smooth={true}
-                offset={0}
-                duration={500}
-                delay={250}
-                isDynamic={true}
-                to="Home"
+              <Link href="/"
               >
                 Join Us
               </Link>

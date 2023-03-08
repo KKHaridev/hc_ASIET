@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import logo from "../../assets/flag-orpheus-top.svg";
 import style from "./Navbar.module.css";
-import { Link } from "react-scroll";
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export const Navbar = () => {
@@ -27,7 +27,7 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                to="Home"
+                href="/"
               >
                 Home
               </Link>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                to="About"
+                href="/#About"
               >
                 About
               </Link>
@@ -55,7 +55,7 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                to="Cards"
+                href="/#Cards"
               >
                 Execom
               </Link>
@@ -69,7 +69,7 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                to="Events"
+                href="/#Events"
               >
                 Events
               </Link>
@@ -83,7 +83,7 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                to="Home"
+                href="/#Home"
               >
                 Join Us
               </Link>
