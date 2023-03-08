@@ -2,7 +2,7 @@ export const events=[
     {
       id:0,
       imgUrl:"https://live.staticflickr.com/65535/52734007300_0a033aa476_b.jpg",
-      name:""
+      name:"Cyber Security Workshop"
     },
     {
       id:1,
@@ -21,17 +21,61 @@ export const events=[
     },
     {
       id:4,
-      imgUrl:"https://live.staticflickr.com/65535/52734007300_0a033aa476_b.jpg",
+      imgUrl:"https://live.staticflickr.com/65535/52733668701_e4542dd5ff_b.jpg",
       name:""
     },
     {
       id:5,
-      imgUrl:"https://live.staticflickr.com/65535/52734007300_0a033aa476_b.jpg",
+      imgUrl:"https://live.staticflickr.com/65535/52734082385_295e552669_b.jpg",
       name:""
     },
     {
       id:6,
-      imgUrl:"https://live.staticflickr.com/65535/52734007300_0a033aa476_b.jpg",
+      imgUrl:"https://live.staticflickr.com/65535/52734152263_476b972a34_b.jpg",
+      name:""
+    },
+    {
+      id:7,
+      imgUrl:"https://live.staticflickr.com/65535/52733930187_39fe356b97_b.jpg",
+      name:""
+    },
+    {
+      id:8,
+      imgUrl:"https://live.staticflickr.com/65535/52734152228_6af4641bc3_c.jpg",
+      name:""
+    },
+    {
+      id:9,
+      imgUrl:"https://live.staticflickr.com/65535/52733668691_a9d45f6998_c.jpg",
+      name:""
+    },
+    {
+      id:10,
+      imgUrl:"https://live.staticflickr.com/65535/52733922824_153e1872d9_c.jpg",
+      name:""
+    },{
+      id:11,
+      imgUrl:"https://live.staticflickr.com/65535/52733668506_19d135bbe1_c.jpg",
+      name:""
+    },
+    {
+      id:12,
+      imgUrl:"https://live.staticflickr.com/65535/52733668461_12d3b5fd78_c.jpg",
+      name:""
+    },
+    {
+      id:13,
+      imgUrl:"https://live.staticflickr.com/65535/52734082225_b4b5ea55a0_c.jpg",
+      name:""
+    },
+    {
+      id:14,
+      imgUrl:"https://live.staticflickr.com/65535/52733144972_7df8c0fc07_c.jpg",
+      name:""
+    },
+    {
+      id:15,
+      imgUrl:"https://live.staticflickr.com/65535/52734152073_107d67c405_c.jpg",
       name:""
     }
   ]
