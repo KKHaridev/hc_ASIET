@@ -1,17 +1,10 @@
 
-import React,{useEffect} from 'react'
+import React from 'react'
 import { events as _events } from '../sections/4-Events/data'
 import style from "../styles/Events.module.css";
 
 export default function events() {
-  useEffect(() => {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth",
-    });
-}, []);
-  
+
   return (
     <div className={style.events} id="events">
       <div className={"container"}>
