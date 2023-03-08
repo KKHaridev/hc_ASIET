@@ -13,7 +13,9 @@ body {
   margin: 0;
   font-family: 'Phantom Sans', sans-serif;
   font-style: normal;
+  scroll-behavior: smooth;
 }
+
 
 a {
   color: inherit;
