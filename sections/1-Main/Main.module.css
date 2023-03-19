@@ -55,7 +55,7 @@
     padding: 5px 32px;
     background: #00EBC7;
     border-radius: 23.5965px;
-    color: var(--black);
+    color: #1B2D45;
 }
 
 .dbtn {
@@ -63,7 +63,7 @@
     padding: 5px 32px;
     background: #eb6a00;
     border-radius: 23.5965px;
-    color: var(--black);
+    color: #1B2D45;
 }
 
 .imgbox img {
@@ -120,7 +120,7 @@
         }
     .box h1 {
         margin: 0px 0;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .content h3 {

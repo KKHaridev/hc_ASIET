@@ -8,7 +8,7 @@ import Typed from "typed.js";
 export const Main = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
-        strings: ["Hack Club ASIET"], 
+        strings: ["Welcome","to","official page of","Hack Club ASIET"], 
         startDelay: 300,
         typeSpeed: 100,
         backSpeed: 100,
