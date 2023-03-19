@@ -66,6 +66,7 @@ export const Footer = () => {
       </div>
       <div className={style.copyright}>
         Made with&nbsp; <AiFillHeart /> &nbsp; by &nbsp;<span>Hack</span><span>Desk</span>
+        <span>2023</span>
       </div>
     </div>
   )

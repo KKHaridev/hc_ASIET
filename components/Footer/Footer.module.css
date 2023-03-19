@@ -97,8 +97,9 @@
     transition: .2s ease-in-out;
 }
 .contributors img{
-    height: 45px;
-    width: 45px;
+    border-radius: 50%;
+    height: 5px;
+    width: 20px;
 }
 .contributors a:hover{
     color: var(--secondary);
