@@ -1,35 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import style from "./Footer.module.css";
 import hcflag from "../../assets/flag-standalone.svg"
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin, AiFillHeart } from 'react-icons/ai';
-
-function Contributors() {
-  const [contributors, setContributors] = useState([]);
-
-  useEffect(() => {
-    fetch('https://api.github.com/repos/kkharidev/hc_asiet/contributors')
-      .then(response => response.json())
-      .then(data => setContributors(data))
-      .catch(error => console.error(error));
-  }, []);
-
-  return (
-    <div className="contributors">
-      <h3>Contributors</h3>
-      <ul>
-        {contributors.map(contributor => (
-          <li key={contributor.id}>
-            <a href={contributor.html_url} target="_blank" rel="noreferrer">
-              {contributor.login}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-}
 
 export const Footer = () => {
   return (
@@ -70,7 +44,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className={style.center}>
+        <div className={style.right}>
           <h3>Connect with Us</h3>
           <div className={style.social}>
             <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
@@ -78,6 +52,15 @@ export const Footer = () => {
             <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
           </div>
           <Image src={hcflag} layout='fill' alt="hc flag" />
+          <h3>Contributors</h3>
+          <div className={style.contributors}>
+            <a href='https://github.com/KKHaridev'>
+              <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
+            </a>
+            <a href='https://github.com/AaronVincent6411'>
+              <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
+            </a>
+        </div>
         </div>
 
       </div>
