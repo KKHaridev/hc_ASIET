@@ -61,11 +61,11 @@
     margin-top: 0;
 }
 
-.right {
+.center {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -85,6 +85,13 @@
     color: var(--secondary);
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
 .contributors {
     font-size: 2.75rem;
     color: white;
@@ -98,8 +105,9 @@
     transition: .2s ease-in-out;
 }
 .contributors img{
-    height: 45px;
-    width: 45px;
+    border-radius: 50%;
+    height: 35px;
+    width: 50px;
 }
 .contributors a:hover{
     color: var(--secondary);

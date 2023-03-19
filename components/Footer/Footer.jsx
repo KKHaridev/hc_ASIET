@@ -44,7 +44,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className={style.right}>
+        <div className={style.center}>
           <h3>Connect with Us</h3>
           <div className={style.social}>
             <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
@@ -52,6 +52,8 @@ export const Footer = () => {
             <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
           </div>
           <Image src={hcflag} layout='fill' alt="hc flag" />
+        </div>
+        <div className={style.right}>
           <h3>Contributors</h3>
           <div className={style.contributors}>
             <a href='https://github.com/KKHaridev'>
