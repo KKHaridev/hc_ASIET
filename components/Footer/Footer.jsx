@@ -55,10 +55,10 @@ export const Footer = () => {
           <h3>Contributors</h3>
           <div className={style.contributors}>
             <a href='https://github.com/KKHaridev'>
-              <img src="https://avatars.githubusercontent.com/u/67409998?v=4"  height="10" width="10"/>
+              <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
             </a>
             <a href='https://github.com/AaronVincent6411'>
-              <img src="https://avatars.githubusercontent.com/u/90915273?v=4"  height="10" width="10"/>
+              <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
             </a>
         </div>
         </div>
@@ -66,7 +66,6 @@ export const Footer = () => {
       </div>
       <div className={style.copyright}>
         Made with&nbsp; <AiFillHeart /> &nbsp; by &nbsp;<span>Hack</span><span>Desk</span>
-        <span>2023</span>
       </div>
     </div>
   )
