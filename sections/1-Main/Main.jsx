@@ -30,22 +30,11 @@ const el = useRef(null);
               to collaborate, build and create innovative projects and ideas. It
               is a wonderful platform for youngsters to get to know each
               other, work together and network effectively.</h3>
-            <button onclick="openDialog()">Join Us</button>
-            <div id="dialog" class="dialog">
-                <div class="dialog-content">
-                    <h2>Join Us</h2>
-                    <form action="/submit-form" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name"></input>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"></input>
-                    <label for="message">College</label>
-                    <textarea id="college" name="college"></textarea>
-                    <input type="submit" value="Submit"></input>
-                    </form>
-                    <button onclick="closeDialog()">Close</button>
-                </div>
-            </div>
+              <button className={style.btn} >
+              <Link href="/JoinUs" scroll={false}>
+                  Join Us 
+              </Link>
+              </button>
             <button className={style.dbtn}>
               <a href='https://forms.gle/vy1D8ix2okJJcqMr6'>Donate Us</a>
             </button>
