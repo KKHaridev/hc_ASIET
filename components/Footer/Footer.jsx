@@ -3,7 +3,7 @@ import style from "./Footer.module.css";
 import hcflag from "../../assets/flag-standalone.svg"
 import Image from 'next/image';
 import Link from 'next/link';
-import { AiFillInstagram, AiFillFacebook, AiFillLinkedin, AiFillHeart } from 'react-icons/ai';
+import { AiFillInstagram, AiFillGithub, AiFillLinkedin, AiFillHeart } from 'react-icons/ai';
 
 function Contributors() {
   const [contributors, setContributors] = useState([]);
