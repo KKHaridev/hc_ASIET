@@ -84,6 +84,7 @@
     color: var(--secondary);
 }
 
+<<<<<<< HEAD
 .right {
     display: flex;
     flex-direction: column;
@@ -112,6 +113,8 @@
     color: var(--secondary);
 }
 
+=======
+>>>>>>> parent of 0c3c684 (updated contributors program)
 .right span {
     position: relative !important;
     margin: 2rem 0 !important;
