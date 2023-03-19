@@ -97,7 +97,7 @@
     transition: .2s ease-in-out;
 }
 .contributors img{
-    margin: 5px 5px;
+    align-items: flex-end;
     border-radius: 50%;
     height: 10%;
     width: 50%;
