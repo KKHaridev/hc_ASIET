@@ -58,6 +58,14 @@
     color: var(--black);
 }
 
+.dbtn {
+    height: 45px;
+    padding: 5px 32px;
+    background: #eb6a00;
+    border-radius: 23.5965px;
+    color: var(--black);
+}
+
 .imgbox img {
     object-fit: contain;
     width: 150% !important;

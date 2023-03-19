@@ -31,6 +31,7 @@ const el = useRef(null);
               is a wonderful platform for youngsters to get to know each
               other, work together and network effectively.</h3>
             <button className={style.btn}>Join Us</button>
+            <button className={style.dbtn}>Donate Us</button>
           </div>
           <div className={style.imgbox}>
             <Image src={heroimg} alt="logo" />
