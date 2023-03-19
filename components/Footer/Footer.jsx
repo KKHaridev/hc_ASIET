@@ -77,21 +77,7 @@ export const Footer = () => {
             <a href="https://www.linkedin.com/in/hackclubasiet"><AiFillLinkedin /></a>
             <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
           </div>
-<<<<<<< HEAD
-        </div>
-        <div className={style.right}>
-          <h3>Contributors</h3>
-          <div className={style.contributors}>
-            <a href='https://github.com/KKHaridev'>
-              <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
-            </a>
-            <a href='https://github.com/AaronVincent6411'>
-              <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
-            </a>
-        </div>
-=======
           <Image src={hcflag} layout='fill' alt="hc flag" />
->>>>>>> parent of 0c3c684 (updated contributors program)
         </div>
 
       </div>
