@@ -8,9 +8,9 @@ import Typed from "typed.js";
 export const Main = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
-        strings: ["Welcome To Official Page Of","Hack Club ASIET"], 
+        strings: ["Welcome","To","Official Page", "Of","Hack Club ASIET"], 
         startDelay: 200,
-        typeSpeed: 200,
+        typeSpeed: 100,
         backSpeed: 100,
         backDelay: 100,
         loop: false,
