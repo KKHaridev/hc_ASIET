@@ -48,9 +48,8 @@ export const Footer = () => {
         <div className={style.right}>
           <h3>Connect with Us</h3>
           <div className={style.social}>
-            <a href="http://"><AiFillInstagram /></a>
-            <a href="http://"><AiFillFacebook /></a>
-            <a href="http://"><AiFillLinkedin /></a>
+            <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
+            <a href="https://www.linkedin.com/in/hackclubasiet"><AiFillLinkedin /></a>
           </div>
           <Image src={hcflag} layout='fill' alt="hc flag" />
         </div>
