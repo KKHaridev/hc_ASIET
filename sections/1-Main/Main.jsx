@@ -10,8 +10,8 @@ export const Main = () => {
     const typed = new Typed(el.current, {
         strings: ["Welcome To Official Page Of","Hack Club ASIET"], 
         startDelay: 200,
-        typeSpeed: 250,
-        backSpeed: 300,
+        typeSpeed: 100,
+        backSpeed: 100,
         backDelay: 100,
         loop: false,
     });
