@@ -50,7 +50,6 @@ export const Footer = () => {
             <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
             <a href="https://www.linkedin.com/in/hackclubasiet"><AiFillLinkedin /></a>
             <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
-            <Image src={hcflag} layout='fill' alt="hc flag" />
           </div>
         </div>
         <div className={style.right}>
