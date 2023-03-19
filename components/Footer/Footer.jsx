@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import style from "./Footer.module.css";
 import hcflag from "../../assets/flag-standalone.svg"
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiFillInstagram, AiFillFacebook, AiFillLinkedin, AiFillHeart } from 'react-icons/ai';
 
+function Contributors() {
+  const [contributors, setContributors] = useState([]);
+
+  useEffect(() => {
+    fetch('https://api.github.com/repos/kkharidev/hc_asiet/contributors')
+      .then(response => response.json())
+      .then(data => setContributors(data))
+      .catch(error => console.error(error));
+  }, []);
+
+  return (
+    <div className="contributors">
+      <h3>Contributors</h3>
+      <ul>
+        {contributors.map(contributor => (
+          <li key={contributor.id}>
+            <a href={contributor.html_url} target="_blank" rel="noreferrer">
+              {contributor.login}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
 export const Footer = () => {
   return (
@@ -50,6 +75,7 @@ export const Footer = () => {
           <div className={style.social}>
             <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
             <a href="https://www.linkedin.com/in/hackclubasiet"><AiFillLinkedin /></a>
+            <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
           </div>
           <Image src={hcflag} layout='fill' alt="hc flag" />
         </div>
