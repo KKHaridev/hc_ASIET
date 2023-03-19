@@ -98,6 +98,8 @@
 }
 .contributors img{
     border-radius: 50%;
+    height: 10%;
+    width: 100%;
 }
 .contributors a:hover{
     color: var(--secondary);
