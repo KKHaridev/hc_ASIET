@@ -53,14 +53,14 @@ export const Footer = () => {
           </div>
           <Image src={hcflag} layout='fill' alt="hc flag" />
           <h3>Contributors</h3>
-          <div className={style.contributors}>
+          {/* <div className={style.contributors}>
             <a href='https://github.com/KKHaridev'>
               <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
             </a>
             <a href='https://github.com/AaronVincent6411'>
               <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
             </a>
-        </div>
+        </div> */}
         </div>
 
       </div>

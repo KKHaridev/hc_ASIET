@@ -84,7 +84,7 @@
     color: var(--secondary);
 }
 
-.contributors {
+/* .contributors {
     font-size: 2.75rem;
     color: white;
     margin-top: 1rem;
@@ -104,7 +104,7 @@
 }
 .contributors a:hover{
     color: var(--secondary);
-}
+} */
 
 .right span {
     position: relative !important;
