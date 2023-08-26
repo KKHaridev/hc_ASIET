@@ -1,5 +1,6 @@
 import Image from "next/image"
 import style from "./Card.module.css"
+import { AiFillLinkedin } from "react-icons/ai"
 
 export const Card = ({item}) => {
     return (
@@ -7,6 +8,7 @@ export const Card = ({item}) => {
             <h2>{item.title}</h2>
             <Image src={item.image} alt={item.image} />
             <p>{item.desc}</p>
+            <a href={item.link} target="_blank" style={{ fontSize: "40px" }}><AiFillLinkedin /></a>
         </div>
     )
 }

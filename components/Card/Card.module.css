@@ -1,7 +1,7 @@
 .card {
-    max-width: 350px;
-    min-width: 250;
-    min-height: 360px;
+    width: 300px;
+    min-width: 250px;
+    min-height: 330px;
     max-height: max-content;
     border-radius: 25px;
     background: var(--sunken);
@@ -23,14 +23,19 @@
 }
 
 .card img{
-    width: 115px !important;
+    width: 135px !important;
     object-fit: contain;
 }
 
 .card p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.1rem;
+    font-family: 'calibri';
+    font-weight: 400;
+    font-size: 22px;
     line-height: 1.4rem;
     text-align: center;
+    position: relative;
+}
+
+.card a {
+    color: rgb(67, 67, 255);
 }
