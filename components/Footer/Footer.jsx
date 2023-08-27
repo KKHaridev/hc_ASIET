@@ -45,22 +45,27 @@ export const Footer = () => {
           </ul>
         </div>
         <div className={style.right}>
-          <h3>Connect with Us</h3>
-          <div className={style.social}>
-            <a href="https://instagram.com/hackclubasiet"><AiFillInstagram /></a>
-            <a href="https://www.linkedin.com/in/hackclubasiet"><AiFillLinkedin /></a>
-            <a href="https://github.com/hackclubasiet"><AiFillGithub /></a>
-          </div>
-          <Image src={hcflag} layout='fill' alt="hc flag" />
-          <h3>Contributors</h3>
-          {/* <div className={style.contributors}>
-            <a href='https://github.com/KKHaridev'>
+        <h3>Contributors</h3>
+          <div className={style.contributors}>
+            <a href='https://kkharidev.algata.in/' target='_blank'>
               <img src="https://avatars.githubusercontent.com/u/67409998?v=4"/>
             </a>
-            <a href='https://github.com/AaronVincent6411'>
+            <a href='https://aaron11.in' target='_blank'>
               <img src="https://avatars.githubusercontent.com/u/90915273?v=4"/>
             </a>
-        </div> */}
+            <a href='https://www.linkedin.com/in/swathi-dinesh' target='_blank'>
+              <img src='https://avatars.githubusercontent.com/u/97840814?v=4'/>
+            </a>
+        </div>
+        </div>
+        <div className={style.center}>
+          <h3>Connect with Us</h3>
+          <div className={style.social}>
+            <a href="https://instagram.com/hackclubasiet" target='_blank'><AiFillInstagram /></a>
+            <a href="https://www.linkedin.com/in/hackclubasiet" target='_blank'><AiFillLinkedin /></a>
+            <a href="https://github.com/hackclubasiet" target='_blank'><AiFillGithub /></a>
+          </div>
+          {/* <Image src={hcflag} layout='fill' alt="hc flag" /> */}
         </div>
 
       </div>
