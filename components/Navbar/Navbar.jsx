@@ -83,9 +83,9 @@ export const Navbar = () => {
                 duration={500}
                 delay={250}
                 isDynamic={true}
-                href="/#Home"
+                href="/#Contact"
               >
-                Join Us
+                Contact Us
               </Link>
             </li>
           </ul>
